@@ -17,7 +17,7 @@ public class ExempleDUtilisation {
 
         monBandeau.setMessage("Hello");
 		monBandeau.sleep(1000);
-		monBandeau.setMessage("On va changer de police");
+		monBandeau.setMessage("B");
 		monBandeau.sleep(1000);
 		monBandeau.setMessage("Monospaced 15 Bold");
 		monBandeau.setFont(new Font("Monospaced", Font.BOLD, 15));
