@@ -55,5 +55,7 @@ public class ExempleDUtilisation {
 		monBandeau.setBackground(back);
 		monBandeau.setMessage("Termine");
 		//System.exit(0);
+                
+                
    }
 }
