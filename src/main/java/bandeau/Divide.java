@@ -1,7 +1,10 @@
 package bandeau;
 
-public class Divide extends Effect{
-public Divide(){
-    super();
-}
+import java.awt.Font;
+
+public class Divide extends Effect {
+
+    public Divide() {
+        super();
+    }
 }

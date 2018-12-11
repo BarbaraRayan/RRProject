@@ -10,5 +10,4 @@ public class Scenario {
         this.repeats = repeats;
     }
 
-    
 }
