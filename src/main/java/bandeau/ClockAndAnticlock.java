@@ -4,8 +4,8 @@ import java.awt.Font;
 
 public class ClockAndAnticlock extends Effect {
 
-    public ClockAndAnticlock() {
-        super();
+    public ClockAndAnticlock(String message) {
+        super(message);
     }
 
     public void playOn(Bandeau bandeau, String message) {

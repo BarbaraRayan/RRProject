@@ -3,8 +3,8 @@ package bandeau;
 import java.awt.Color;
 
 public class Rainbow extends Effect{
-public Rainbow(){
-    super();
+public Rainbow(String message){
+    super(message);
 } 
 @Override
 public void playOn(Bandeau bandeau, String message){

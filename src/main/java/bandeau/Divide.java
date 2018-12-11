@@ -4,8 +4,11 @@ import java.awt.Font;
 
 public class Divide extends Effect {
 
-    public Divide() {
-        super();
+   // private final String message;
+    
+    public Divide(String message) {
+        super(message);
+        //this.message=message;
     }
     public void playOn (Bandeau bandeau, String message) {
      

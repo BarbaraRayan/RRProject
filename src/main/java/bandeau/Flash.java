@@ -2,8 +2,8 @@ package bandeau;
 
 public class Flash extends Effect {
 
-    public Flash() {
-        super();
+    public Flash(String message) {
+        super(message);
     }
 
     public void playOn(Bandeau bandeau, String message) {
