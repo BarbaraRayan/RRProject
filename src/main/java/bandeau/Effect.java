@@ -8,6 +8,5 @@ public abstract class Effect {
         this.message=message;
     }
 
-    public void playOn(Bandeau bandeau, String message) {
-    }
+    public abstract void playOn(Bandeau bandeau/*, String message*/) ;
 }
