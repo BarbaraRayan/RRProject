@@ -18,8 +18,9 @@ public class Divide extends Effect {
 
         for (int i = 0; i < message.length(); i++) {
             bandeau.setMessage(Character.toString(message.charAt(i)));
-            bandeau.sleep(1000);
+            bandeau.sleep(500);
         }
+        bandeau.sleep(1000);
         bandeau.setMessage(message);
     }
 }

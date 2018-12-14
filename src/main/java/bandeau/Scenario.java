@@ -6,25 +6,23 @@ import java.util.LinkedList;
 
 public class Scenario {
 
-   // private Effect effects;
     private int repeats;
     private final Bandeau monBandeau = new Bandeau();
     List<Effect> maListeEffects = new LinkedList();
 
-    public Scenario( int repeats) {
-      //  this.effects = effects;
+    public Scenario(int repeats) {
         this.repeats = repeats;
     }
 
     public void playOn() {
         for (int i = 1; i <= repeats; i++) {
             for (Effect e : maListeEffects) {
-                e.playOn(monBandeau/*,monBandeau.getMessage()*/);
+                e.playOn(monBandeau);
             }
         }
     }
 
-    public void addEffect(Effect e ) {
+    public void addEffect(Effect e) {
         maListeEffects.add(e);
     }
 }
