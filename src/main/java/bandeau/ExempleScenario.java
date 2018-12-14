@@ -15,28 +15,28 @@ import java.util.HashSet;
  */
 public class ExempleScenario {
 
-   //HashSet<Effect> mlisteE = new HashSet();
+    //HashSet<Effect> mlisteE = new HashSet();
     private final Scenario monScenario = new Scenario(1);
-    
+
     public static void main(String[] args) {
         // TODO code application logic here
         new ExempleScenario().Test();
     }
-    public void Test(){
-    
-        Effect e1 = new Flash("Flash"); 
-        Effect e2 = new Divide("DIVISER");
-        Effect e3 = new Rainbow("On change de couleur");
-        Effect e4 = new ClockAndAnticlock("Clock And Anticlock");
-        
-        monScenario.addEffect(e1);
-        monScenario.addEffect(e2);
-        monScenario.addEffect(e3);
-        monScenario.addEffect(e4);
 
-        
+    public void Test() {
+
+        Effect e1 = new Flash("Flash");
+        Effect e2 = new Divide("DIVISER");
+        //Effect e3 = new Rainbow("On change de couleur");
+        //Effect e4 = new ClockAndAnticlock("Clock And Anticlock");
+
+        //monScenario.addEffect(e1);
+        monScenario.addEffect(e2);
+        //monScenario.addEffect(e3);
+        //monScenario.addEffect(e4);
+
         monScenario.playOn();
-        
+
     }
-    
+
 }

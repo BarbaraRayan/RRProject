@@ -13,7 +13,7 @@ public class ClockAndAnticlock extends Effect {
         for (int i = 0; i <= 100; i++) {
             bandeau.setRotation((2 * Math.PI * i) / 100);
             bandeau.sleep(100);
-            bandeau.setFont(new Font(message, Font.BOLD, 10 + i));
+            //bandeau.setFont(new Font(message, Font.BOLD, 10 + i));
         }
         for (int i = 100; i >= 1; i--) {
             bandeau.setRotation((2 * Math.PI * i) / 100);
